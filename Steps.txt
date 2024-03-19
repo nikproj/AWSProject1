@@ -10,7 +10,7 @@ Steps For the Project
   
   -> Creates VPC with 2 Private and 2 Public Subnet in us-east-1a and ua-east-1b
   -> Internet-Gateway and NAT-Gateway is routed
-  -> Creates a S3 Bucket with name 
+  -> Creates a S3 Bucket with name projbucket-494273343511
   -> Creates a RDS in private subnet
   -> Creates a Dynamo-DB Table with name employee_image_table and Partition key as empid(N)
   -> Key-Pair for EC2 Instance 
@@ -37,7 +37,8 @@ Steps For the Project
 3. Lambda Function
   
   -> Add trigger as S3 bucket to the Lambda Function
-  -> paste SNS arn to the python-code and deploy
+  -> paste SNS arn to the python-code at target arn and deploy
+  -> add subscriptions to sns
 
 
 4. Deletion
